@@ -1,7 +1,7 @@
 # mycentos7javadocker
 
 This image is my convinient environment on CentOS 7
-includes man pages, iproute, bind-utils, jq, kubectl CLI and java11, gradle.
+includes man pages, iproute, bind-utils, jq, kubectl CLI and java 11, gradle 5.
 
 ## how to use
 
