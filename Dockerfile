@@ -5,7 +5,7 @@ ENV MYCENTOS7JAVADOCKER_VERSION latest
 ENV MYCENTOS7JAVADOCKER_VERSION stable
 ENV MYCENTOS7JAVADOCKER_IMAGE georgesan/mycentos7javadocker
 
-# install java and gradle
+# install java 11 and gradle 5.0
 RUN yum install -y unzip && yum clean all
 RUN yum install -y java-11-openjdk-devel && yum clean all
 RUN curl -LO https://services.gradle.org/distributions/gradle-5.0-bin.zip && \
